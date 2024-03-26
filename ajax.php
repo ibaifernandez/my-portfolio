@@ -18,7 +18,7 @@ if(isset($_POST) && !empty($_POST)){
         
         // Send response to the sender
         $responseSubject = 'Thank you for your message';
-        $responseMessage = "Dear $full_name,<br><br>Thank you for reaching out to me. I have received your message regarding \"$subject\" and I will get back to you as soon as possible.<br><br>Best regards,<br><a href='https://portfolio.ibaifernandez.com' target='_blank'>~Ibai Fernández</a>";
+        $responseMessage = "Dear $first_name,<br><br>Thank you for reaching out to me. I have received your message regarding \"$subject\" and I will get back to you as soon as possible.<br><br>Best regards,<br><a href='https://portfolio.ibaifernandez.com' target='_blank'>~Ibai Fernández</a>";
 
         $responseHeaders = "MIME-Version: 1.0" . "\r\n";
         $responseHeaders .= "Content-type:text/html;charset=UTF-8" . "\r\n";
