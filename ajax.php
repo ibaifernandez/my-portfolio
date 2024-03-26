@@ -23,6 +23,7 @@ if(isset($_POST) && !empty($_POST)){
         $responseHeaders = "MIME-Version: 1.0" . "\r\n";
         $responseHeaders .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         $responseHeaders .= "From: <info@ibaifernandez.com>" . "\r\n";
+        $responseHeaders .= "Reply-To: $email" . "\r\n";
 
         mail($email, $responseSubject, $responseMessage, $responseHeaders);
     }
