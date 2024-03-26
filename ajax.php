@@ -34,7 +34,7 @@ if(isset($_POST) && !empty($_POST)){
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         $headers .= "From: <$fromEmail>" . "\r\n";
-        $headers .= "Reply-To: $email" . "\r\n";
+        // $headers .= "Reply-To: $email" . "\r\n";
 
         if(mail($toEmail , $mailSubject , $sendMessage , $headers )){
             echo 1;
