@@ -348,6 +348,10 @@ ul {
     -o-transform: translate(-50%,-50%);
     text-align: center;
 }
+.status h1 {
+    margin-top:25px;
+}
+
 
 /* --- preloader section End --- */
 
