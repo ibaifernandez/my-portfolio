@@ -191,19 +191,41 @@ Assigned to: ThemeForest
 	
 	// magnifiv popup for project gallery
 	magnific_popup: function() {
-			if($('.view').length > 0){
-			$('.view').magnificPopup({
-			  type: 'image',
-			  
-			  gallery: {
-				// options for gallery
-				enabled: true
-			  }
-			  
-			  // other options
-			});
-		}
-	},
+        if ($('.view').length > 0) {
+            $('.view').magnificPopup({
+                type: 'image',
+                mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+    
+                gallery: {
+                    enabled: true
+                },
+                callbacks: {
+                    open: function() {
+                        $(".mfp-figure figure").css("cursor", "zoom-in");
+                        $(".mfp-figure figure").zoom({
+                            on: "click",
+                            onZoomIn: function () {
+                                $(this).css("cursor", "zoom-out");
+                            },
+                            onZoomOut: function () {
+                                $(this).css("cursor", "zoom-in");
+                            }
+                        });
+                    },
+                    close: function() {
+                        // Will fire when popup is closed
+                    }
+                }
+            });
+        }
+    },
+
+    zoom_in: function() {
+        $(document).ready(function(){
+            $('.mpf-img img').zoom({ on: 'click' });
+        });
+    },    
+    
 	/*------------------------------------------------------------------*/
 	// Start testimonial swipper slider
 	testimonial_slider: function() {
@@ -283,7 +305,6 @@ Assigned to: ThemeForest
 								size : 400,
 								thickness: 15,
 								lineCap: 'round',
-                                "z-index":9,
 								fill: {
 									color: '#FF754A'
 								}
@@ -591,11 +612,11 @@ Assigned to: ThemeForest
 	/*------------------------------------------------------------------*/
 	//click to scroll
 	scroll_contact: function() {
-		if($('#redirect_contact').length > 0){
-			$('#redirect_contact').on('click', function() {
+		if($('.redirect_contact').length > 0){
+			$('.redirect_contact').on('click', function() {
 				$('html, body').animate({
 					scrollTop: $('#scroll_contact').offset().top
-				}, 2000);
+				}, 0);
 			});
 		}
 	},
