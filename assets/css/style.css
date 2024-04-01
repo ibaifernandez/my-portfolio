@@ -313,9 +313,16 @@ ul {
 	-o-transform: translateY(-100%);
 	transform: translateY(-100%);
 }
+
+.font-awesome-big {
+    font-size:36px;
+    margin-top:12px;
+}
+
 .portfolio_btn:hover span.second_text {
     top: 0%;
 }
+
 .portfolio_btn:hover {
     background: #ff517e;
 	color: #ffffff;
@@ -1097,9 +1104,14 @@ transform: scale(1)!important;
     font-weight: 400;
 }
 .education_section {
-    padding: 80px 0;
+    padding: 80px 0 40px;
     position: relative;
     overflow: hidden;
+}
+.linkedin-button {
+    display:flex;
+    justify-content: center;
+    margin-bottom:40px;
 }
 .port_sec_warapper {
     margin-left: 120px;
@@ -1619,29 +1631,39 @@ h3.education_place {
     background: rgb(252, 194, 85);
     padding: 80px 0;
 }
+
+.port_language_section {
+    background-color: rgb(0, 200, 218);
+    padding: 80px 0;
+}
+
 .experience_section {
     padding: 80px 0;
 }
-.port_progress_setions .prt_heading_white .prt_heading_wrapper .prt_head:after {
+.port_progress_setions .prt_heading_white .prt_heading_wrapper .prt_head:after,
+.port_language_section .prt_heading_white .prt_heading_wrapper .prt_head:after {
     background: #fcc255;
 }
 
 /* Progress bar css */
 
-.port_progress_setions .circle {
+.port_progress_setions .circle,
+.port_language_section .circle {
   width: 200px!important;
   display: inline-block;
   position: relative;
   text-align: center;
 }
-.port_progress_setions .circle canvas {
+.port_progress_setions .circle canvas,
+.port_language_section .circle canvas {
     width: 200px!important;
     height: 200px!important;
 }
-.port_progress_setions .circle strong {
+.port_progress_setions .circle strong,
+.port_language_section .circle strong {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 48%;
     right: 0;
     margin: auto;
     width: 100%;
@@ -1653,13 +1675,15 @@ h3.education_place {
     font-weight: 500;
 }
 
-.port_progress_setions .circle strong i {
+.port_progress_setions .circle strong i,
+.port_language_section .circle strong i {
   font-style: normal;
   font-size: 0.6em;
   font-weight: normal;
 }
 
-.port_progress_setions .progressbar span {
+.port_progress_setions .progressbar span,
+.port_language_section .progressbar span {
     display: block;
     color: #fff;
     margin-top: 20px;
@@ -1673,7 +1697,8 @@ h3.education_place {
 
 /*================== 08 start Experience section css ==================  */
 
-.port_experience_setions .exprince_box {
+.port_experience_setions .exprince_box,
+.port_language_section .exprince_box {
     margin-bottom: 29px;
     -webkit-transition: all 05s;
     -moz-transition: all 0.5s;
@@ -1681,7 +1706,9 @@ h3.education_place {
     -o-transition: all 0.5s;
     transition: all 0.5s;
 }
-.port_experience_setions .ex_leftside {
+
+.port_experience_setions .ex_leftside,
+.port_language_section .ex_leftside {
     background: #ff517e;
     border-radius: 3px;
     /* padding: 23px 20px; */
@@ -1696,22 +1723,29 @@ h3.education_place {
     justify-content: space-between;
     width:95%;
 }
-.port_experience_setions .ex_leftside .left_side {
+.port_experience_setions .ex_leftside .left_side,
+.port_language_section .ex_leftside .left_side {
     width:15%;
     padding-left: 25px;
 }
-.port_experience_setions .ex_leftside .left_side p {
+
+.port_experience_setions .ex_leftside .left_side p,
+.port_language_section .ex_leftside .left_side p {
     width:75%;
     margin: 0 auto; 
 font-size: 24px;
 color:white;
 border-radius: 100%;
 }
-.port_experience_setions .ex_leftside .right_side {
+
+.port_experience_setions .ex_leftside .right_side,
+.port_language_section .ex_leftside .right_side {
     width:75%;
     padding:10px 10px 0 10px;
 }
-.port_experience_setions .ex_rightside {
+
+.port_experience_setions .ex_rightside,
+.port_language_section .ex_rightside {
     background: #ffffff;
     padding: 20px;
     border-radius: 3px;
@@ -1767,20 +1801,25 @@ border-radius: 100%;
 .port_experience_setions .ex_rightside .to-the-right {
     text-align: right;
 }
-.port_experience_setions .ex_rightside h4 {
+
+.port_experience_setions .ex_rightside h4,
+.port_language_section .ex_rightside h4 {
     font-size: 20px;
     color: #222222;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+
 .ex_leftside h4 {
     padding: 5px 0px;
     font-size: 15px;
     color: #fff;
 }
-.port_experience_setions .padding-0 {
+.port_experience_setions .padding-0,
+.port_language_section .padding-0 {
     padding-right: 0;
 }
+
 .ex_rightside .ex_details {
     border-top: 1px solid #eee;
     padding-top: 10px;
@@ -1790,14 +1829,17 @@ border-radius: 100%;
     -webkit-box-orient: vertical;
     overflow: hidden
 }
+
 .ex_rightside .more_content{
 	display:none;
 }
+
 h6.more_content {
     font-weight: 600;
     margin: 10px 0;
     color: #777;
 }
+
 ul.more_content {
     margin: 10px 0;
     color: #777;
@@ -1808,22 +1850,26 @@ ul.more_content {
     font-size: 45px;
 	color: #fff;
 }
+
 .ex_rightside span {
     display: inline-block;
     margin-top: 5px;
 }
+
 .ex_rightside span.secondary_span {
     display: block;
     margin-top: 5px;
 }
 
-.port_experience_setions .exprince_box:hover {
+.port_experience_setions .exprince_box:hover,
+.port_language_section .exprince_box:hover {
     -webkit-transform: translate(0px,-2px);
     -o-transform: translate(0px,-2px);
     -ms-transform: translate(0px,-2px);
     -moz-transform: translate(0px,-2px);
     transform: translate(0px,-2px);
 }
+
 .ex_rightsidebox .padding-0 {
     padding-left: 0;
     padding-right: 15px;

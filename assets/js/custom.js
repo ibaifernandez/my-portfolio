@@ -283,12 +283,14 @@ Assigned to: ThemeForest
 								size : 400,
 								thickness: 15,
 								lineCap: 'round',
+                                "z-index":9,
 								fill: {
-									color: '#fff'
+									color: '#FF754A'
 								}
-							}).on('circle-animation-progress', function (event, progress, stepValue) {
-								$(this).find('strong').text((stepValue*100).toFixed(0) + "%");
-							}).stop();
+							}).stop()
+                            // .on('circle-animation-progress', function (event, progress, stepValue) {
+							// 	$(this).find('strong').text((stepValue*100).toFixed(0) + "%");
+							// }).stop();
 						}
 					});
 				}
