@@ -440,6 +440,262 @@ Assigned to: ThemeForest
 							latLng: [37.21533, -93.29824],
 							name: 'Springfield',
 						},
+                        {
+                            latLng: [37.7749, -122.4194],
+                            name: 'San Francisco'
+                        },
+                        {
+                            latLng: [34.8958, -117.0173],
+                            name: 'Barstow'
+                        },
+                        {
+                            latLng: [36.1699, -115.1398],
+                            name: 'Las Vegas'
+                        },
+                        {
+                            latLng: [36.1069, -112.1129],
+                            name: 'Grand Canyon'
+                        },
+                        {
+                            latLng: [35.4676, -97.5164],
+                            name: 'Oklahoma City'
+                        },
+                        {
+                            latLng: [27.9659, -82.8001],
+                            name: 'Clearwater'
+                        },
+                        {
+                            latLng: [35.1495, -90.0490],
+                            name: 'Memphis'
+                        },
+                        {
+                            latLng: [43.0731, -89.4012],
+                            name: 'Madison'
+                        },
+                        {
+                            latLng: [44.5192, -88.0198],
+                            name: 'Green Bay'
+                        },
+                        {
+                            latLng: [44.9369, -91.3929],
+                            name: 'Chippewa Falls'
+                        },
+                        {
+                            latLng: [34.0522, -118.2437],
+                            name: 'Los Angeles'
+                        },
+                        {
+                            latLng: [42.3601, -71.0589],
+                            name: 'Boston'
+                        },
+                        {
+                            latLng: [42.7654, -71.4676],
+                            name: 'Nashua'
+                        },
+                        {
+                            latLng: [-0.9624, -80.7128],
+                            name: 'Manta'
+                        },
+                        {
+                            latLng: [36.5298, -6.2920],
+                            name: 'Cádiz'
+                        },
+                        {
+                            latLng: [40.9701, -5.6635],
+                            name: 'Salamanca'
+                        },
+                        {
+                            latLng: [41.9028, 12.4964],
+                            name: 'Roma'
+                        },
+                        {
+                            latLng: [43.7696, 11.2558],
+                            name: 'Florencia'
+                        },
+                        {
+                            latLng: [45.4408, 12.3155],
+                            name: 'Venecia'
+                        },
+                        {
+                            latLng: [35.0361, 9.4858],
+                            name: 'Sidi Bouzid'
+                        },
+                        {
+                            latLng: [35.7595, -5.8330],
+                            name: 'Tánger'
+                        },
+                        {
+                            latLng: [36.1408, -5.4562],
+                            name: 'Algeciras'
+                        },
+                        {
+                            latLng: [43.2630, -2.9350],
+                            name: 'Bilbao'
+                        },
+                        {
+                            latLng: [42.8597, -2.6818],
+                            name: 'Vitoria'
+                        },
+                        {
+                            latLng: [43.3623, -8.4115],
+                            name: 'La Coruña'
+                        },
+                        {
+                            latLng: [35.0844, -106.6504],
+                            name: 'Albuquerque, New Mexico'
+                        },
+                        {
+                            latLng: [38.6270, -90.1994],
+                            name: 'Saint Louis, Missouri'
+                        },
+                        {
+                            latLng: [27.9506, -82.4572],
+                            name: 'Tampa Bay, Florida'
+                        },
+                        {
+                            latLng: [42.8864, -78.8784],
+                            name: 'Buffalo, New York'
+                        },
+                        {
+                            latLng: [-1.0546, -80.4544],
+                            name: 'Portoviejo, Ecuador'
+                        },
+                        {
+                            latLng: [0.3392, -78.1220],
+                            name: 'Ibarra, Ecuador'
+                        },
+                        {
+                            latLng: [-3.9942, -79.2057],
+                            name: 'Loja, Ecuador'
+                        },
+                        {
+                            latLng: [-2.9043, -79.0119],
+                            name: 'Cuenca, Ecuador'
+                        },
+                        {
+                            latLng: [43.3614, -5.8494],
+                            name: 'Oviedo, España'
+                        },
+                        {
+                            latLng: [43.5322, -5.6615],
+                            name: 'Gijón, España'
+                        },
+                        {
+                            latLng: [40.7829, 17.2408],
+                            name: 'Alberobello, Italia'
+                        },
+                        {
+                            latLng: [43.3188, 11.3308],
+                            name: 'Siena, Italia'
+                        },
+                        {
+                            latLng: [52.3676, 4.9041],
+                            name: 'Amsterdam'
+                        },
+                        {
+                            latLng: [51.9225, 4.4792],
+                            name: 'Rotterdam'
+                        },
+                        {
+                            latLng: [50.7753, 6.0839],
+                            name: 'Aachen'
+                        },
+                        {
+                            latLng: [52.5200, 13.4050],
+                            name: 'Berlín'
+                        },
+                        {
+                            latLng: [48.8566, 2.3522],
+                            name: 'París'
+                        },
+                        {
+                            latLng: [44.4056, 8.9463],
+                            name: 'Génova'
+                        },
+                        {
+                            latLng: [43.7102, 7.2620],
+                            name: 'Niza'
+                        },
+                        {
+                            latLng: [37.6257, -0.9966],
+                            name: 'Cartagena'
+                        },
+                        {
+                            latLng: [38.7223, -9.1393],
+                            name: 'Lisboa'
+                        },
+                        {
+                            latLng: [41.6918, -8.8335],
+                            name: 'Viana Do Castelo'
+                        },
+                        {
+                            latLng: [37.0194, -7.9306],
+                            name: 'Algarve'
+                        },
+                        {
+                            latLng: [41.1579, -8.6291],
+                            name: 'Oporto'
+                        },
+                        {
+                            latLng: [42.5063, 1.5218],
+                            name: 'Andorra'
+                        },
+                        {
+                            latLng: [43.7228, 10.4017],
+                            name: 'Pisa'
+                        },
+                        {
+                            latLng: [46.7867, -92.1005],
+                            name: 'Duluth'
+                        },
+                        {
+                            latLng: [44.9778, -93.2650],
+                            name: 'Minneapolis'
+                        },
+                        {
+                            latLng: [36.6437, -93.2185],
+                            name: 'Branson'
+                        },
+                        {
+                            latLng: [36.1540, -95.9928],
+                            name: 'Tulsa'
+                        },
+                        {
+                            latLng: [34.9387, -104.9373],
+                            name: 'Santa Rosa'
+                        },
+                        {
+                            latLng: [34.9022, -110.1593],
+                            name: 'Holbrook'
+                        },
+                        {
+                            latLng: [35.1983, -111.6513],
+                            name: 'Flagstaff'
+                        },
+                        {
+                            latLng: [35.3733, -119.0187],
+                            name: 'Bakersfield'
+                        },
+                        {
+                            latLng: [37.3382, -121.8863],
+                            name: 'San José'
+                        },
+                        {
+                            latLng: [34.7465, -92.2896],
+                            name: 'Little Rock'
+                        },
+                        {
+                            latLng: [36.1627, -86.7816],
+                            name: 'Nashville'
+                        },
+                        {
+                            latLng: [35.2574, -86.3698],
+                            name: 'Lynchburg'
+                        },
+                        {
+                            latLng: [53.3498, -6.2603],
+                            name: 'Dublín'
+                        },                                                
 					]
 				  });
 				});
