@@ -3321,6 +3321,9 @@ h3.core-features:nth-of-type(3)::before {
     .col-lg-6.col-md-4.col-sm-12.col-12.align-self-center.DesktopNone {
         display: block;
     }
+    .selfintro_section .right_section {
+        margin: 20px auto 0 auto;
+    }
     .education_mright.education_right {
         margin: 0;
     }
