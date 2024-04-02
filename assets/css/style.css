@@ -3751,11 +3751,7 @@ h3.core-features:nth-of-type(3)::before {
         margin-left:15px;
     }
     .core-features::after, .core-features::before {
-        width: 15%;
-    }
-    h3.core-features:nth-of-type(3)::before,
-    h3.core-features:nth-of-type(3)::after {
-        width: 4%;
+        display: none;
     }
     .port_project_gallery .grid_img img {
         width:100%;
