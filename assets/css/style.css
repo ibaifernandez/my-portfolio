@@ -3406,6 +3406,7 @@ h3.core-features:nth-of-type(3)::before {
     }
     .port_menu_open .port_sidebar_wrapper {
         left: 0px;
+        top:0px;
     }
     /* End toggle box */
 
