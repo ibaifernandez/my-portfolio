@@ -3570,10 +3570,13 @@ h3.core-features:nth-of-type(3)::before {
     }
 @media (max-width:575px) {
     .portfolio_btn {
-        min-width: 130px;
+        min-width: 170px;
         height: 45px;
         line-height: 47px;
         font-size: 15px;
+    }
+    .fa-mt-3 {
+        margin-top:6px;
     }
     .personal_details ul.info-list li {
         margin-bottom: 8px;
