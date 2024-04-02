@@ -1459,6 +1459,9 @@ span.value a:hover {
 }
 .prt_rightside_title .left_title {
     width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .prt_rightside_title .right_title {
     width: 75%;
@@ -1467,8 +1470,8 @@ span.value a:hover {
 	color: #010101;
     font-weight: 600;
     font-size: 18px;
-    padding-top: 10px;
-    bottom: 10px;
+    /* padding-top: 10px;
+    bottom: 10px; */
 }
 .prt_rightside_title .right_title h4 {
     color: #ffffff;
@@ -3352,6 +3355,9 @@ h3.core-features:nth-of-type(3)::before {
     }
     .prt_rightside_title .right_title {
         width: 100%;
+    }
+    .prt_rightside_title .left_title h4 {
+        font-size:14px;
     }
     .port_project_gallery .grid-item:hover .grid-content h4 {
         font-size:14px;
