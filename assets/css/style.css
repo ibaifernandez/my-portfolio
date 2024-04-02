@@ -3531,6 +3531,7 @@ h3.core-features:nth-of-type(3)::before {
     }
     .selfintro_section .about_leftsection {
         margin: 0;
+        display: none;
     }
     .right_section h2.about_tophead {
         font-size:28px;
