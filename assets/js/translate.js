@@ -47,7 +47,7 @@ function translate() {
 }
 
 // Event listener para el botón de cambio de idioma
-document.getElementById('translate-button-icon').addEventListener('click', toggleLanguage);
+document.getElementById('translate-button-icon').addEventListener('click', toggleLanguageButton);
 
 // Inicialmente cargamos las traducciones y traducimos los elementos
 var currentLanguage = 'en'; // Inicialmente en inglés
