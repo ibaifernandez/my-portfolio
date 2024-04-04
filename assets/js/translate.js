@@ -1,5 +1,5 @@
 // Función para cargar las traducciones
-function loadTranslations(callback) {
+function loadTranslations(language, callback) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -11,7 +11,7 @@ function loadTranslations(callback) {
             }
         }
     };
-    xhr.open('GET', 'translations.json', true);
+    xhr.open('GET', 'translations/' + language + '.json', true); // Cargar el archivo JSON del idioma correspondiente
     xhr.send();
 }
 
@@ -29,18 +29,14 @@ function translateElements(translations) {
 // Función para cambiar el ícono del botón de acuerdo al idioma actual
 function toggleLanguageButton() {
     var buttonIcon = document.getElementById('translate-button-icon');
-    var iconPath = currentLanguage === 'en' ? 'assets/images/english.svg' : 'assets/imagesspain.svg';
+    var iconPath = currentLanguage === 'en' ? 'assets/images/english.svg' : 'assets/images/spain.svg'; // Corregir las rutas de las imágenes
     buttonIcon.setAttribute('src', iconPath);
 }
 
 // Función para cambiar entre idiomas y traducir los elementos
 function toggleLanguage() {
-    if (currentLanguage === 'en') {
-        currentLanguage = 'es';
-    } else {
-        currentLanguage = 'en';
-    }
-    loadTranslations(function(error, translations) {
+    currentLanguage = currentLanguage === 'en' ? 'es' : 'en'; // Alternar entre 'en' y 'es'
+    loadTranslations(currentLanguage, function(error, translations) {
         if (error) {
             console.error(error);
             return;
@@ -55,7 +51,7 @@ document.getElementById('translate-button-icon').addEventListener('click', toggl
 
 // Inicialmente cargamos las traducciones y traducimos los elementos
 var currentLanguage = 'en'; // Inicialmente en inglés
-loadTranslations(function(error, translations) {
+loadTranslations(currentLanguage, function(error, translations) {
     if (error) {
         console.error(error);
         return;
