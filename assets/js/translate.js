@@ -35,7 +35,7 @@ function toggleLanguageButton() {
 
 // Función para cambiar entre idiomas y traducir los elementos
 function translate() {
-    currentLanguage = currentLanguage === 'es' ? 'en' : 'es'; // Alternar entre 'en' y 'es'
+    currentLanguage = currentLanguage === 'en' ? 'es' : 'en'; // Alternar entre 'en' y 'es'
     loadTranslations(currentLanguage, function(error, translations) {
         if (error) {
             console.error(error);
