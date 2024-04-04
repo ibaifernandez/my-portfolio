@@ -3886,3 +3886,21 @@ h3.core-features:nth-of-type(3)::before {
     }
     }
     /*  ================== 20 End media query css ==================  */
+
+/*  ================== Translate Button ==================  */
+
+#translate-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#translate-button-icon {
+    cursor: pointer;
+}
+
