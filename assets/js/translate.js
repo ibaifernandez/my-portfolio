@@ -29,7 +29,7 @@ function translateElements(translations) {
 // Función para cambiar el ícono del botón de acuerdo al idioma actual
 function toggleLanguageButton() {
     var buttonIcon = document.getElementById('translate-button-icon');
-    var iconPath = currentLanguage === 'en' ? 'assets/images/english.svg' : 'assets/images/spain.svg'; // Corregir las rutas de las imágenes
+    var iconPath = currentLanguage === 'en' ? 'assets/images/spain.svg' : 'assets/images/english.svg'; // Corregir las rutas de las imágenes
     buttonIcon.setAttribute('src', iconPath);
 }
 
