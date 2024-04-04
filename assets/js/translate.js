@@ -16,6 +16,6 @@ function translate(language) {
             }
         }
     };
-    xhr.open('GET', 'translations/' + language + '.json', true);
+    xhr.open('GET', 'translations.json', true);
     xhr.send();
 }
