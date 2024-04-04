@@ -11,7 +11,7 @@ function loadTranslations(language, callback) {
             }
         }
     };
-    xhr.open('GET', 'translations/' + language + '.json', true); // Cargar el archivo JSON del idioma correspondiente
+    xhr.open('GET', language + '.json', true); // Cargar el archivo JSON del idioma correspondiente
     xhr.send();
 }
 
