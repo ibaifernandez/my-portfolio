@@ -3899,7 +3899,7 @@ h3.core-features:nth-of-type(3)::before {
 #translate-button-container {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    left: 140px;
     border: none;
     background-color: transparent;
     border-radius: 5px;
