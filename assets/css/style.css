@@ -465,7 +465,7 @@ ul {
     -webkit-transition-timing-function: cubic-bezier(0.52,1.64,.37,.66);
     transition-timing-function: cubic-bezier(0.52,1.64,.37,.66);
 }
-.port_navigation .nav_list li.active:first-child::before {
+/* .port_navigation .nav_list li.active:first-child::before {
 	background:#ff4a4a2e;
 }
 .port_navigation .nav_list li.active:nth-child(2)::before {
@@ -476,7 +476,7 @@ ul {
 }
 .port_navigation .nav_list li.active:last-child::before {
 	background:#ff754a4f;
-}
+} */
 .port_navigation .nav_list li:before {
     content: "";
     position: absolute;
@@ -485,7 +485,7 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #e5e5e5;
+    /* background: #e5e5e5; */
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1790,6 +1790,9 @@ h3.education_place {
     justify-content: space-between;
     width:95%;
 }
+.port_experience_setions .ex_leftside.current-job {
+    background-color: #00c8da;
+}
 .port_experience_setions .ex_leftside .left_side,
 .port_language_section .ex_leftside .left_side {
     width:15%;
@@ -1917,6 +1920,10 @@ ul.more_content {
     font-weight: 500;
     font-size: 45px;
 	color: #fff;
+}
+
+.ex_leftside .currently {
+    font-size:36px;
 }
 
 .ex_rightside span {
