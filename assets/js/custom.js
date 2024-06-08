@@ -890,9 +890,9 @@ Assigned to: ThemeForest
 				$(".more_content").not($(this).siblings(".more_content")).slideUp();
 				$(".ex_btn").not(this).text("Read More");
 				$(this).siblings('.more_content').slideToggle();
-			  if ($(this).text() == "Read More") {
-				$(this).text("Read Less")
-			  } else {
+			  if ($(this).text() == "Expand") {
+				$(this).text("Contract")
+			  } else if ($(this).text() == "Expander") {
 				$(this).text("Contraer")
 			  }
 			});
