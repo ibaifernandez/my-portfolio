@@ -888,7 +888,7 @@ Assigned to: ThemeForest
 		if($('.ex_btn').length > 0){
 			$('.ex_btn').on('click', function() {
 				$(".more_content").not($(this).siblings(".more_content")).slideUp();
-				$(".ex_btn").not(this).text("Read More");
+				$(".ex_btn").not(this).text("⬇️");
 				$(this).siblings('.more_content').slideToggle();
 			  if ($(this).text() == "⬇️") {
 				$(this).text("⬆️")
