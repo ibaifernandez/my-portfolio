@@ -2673,7 +2673,7 @@ h3.core-features:nth-of-type(3)::before {
     border-radius: 0;
     padding: 0;
     margin-bottom:0px;
-    padding-bottom: 20px;
+    padding: 10px 0;
 }
 .port_contact_form .form-control:focus {
     box-shadow: none;
