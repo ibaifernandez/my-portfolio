@@ -894,6 +894,8 @@ Assigned to: ThemeForest
 				$(this).text("Collapse")
 			  } else if ($(this).text() == "Expander") {
 				$(this).text("Contraer")
+			  } else if ($(this).text() == "Collapse") {
+				$(this).text("Expand")
 			  }
 			});
 			 $('.ex_rightside').on('click', function(e) {
