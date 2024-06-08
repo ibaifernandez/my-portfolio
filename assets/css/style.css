@@ -1839,7 +1839,7 @@ border-radius: 100%;
     padding: 0;
     margin: 0;
 }
-.ex_leftsidebox .ex_leftside:after {
+/* .ex_leftsidebox .ex_leftside:after {
     position: absolute;
     content: "";
     right: -22px;
@@ -1859,7 +1859,7 @@ border-radius: 100%;
     border-right:11px solid #ff517e;
     border-top: 11px solid #ffffff00;
     border-bottom: 11px solid #ffffff00;
-}
+} */
 .heading_for_job_experiences {
     display: flex;
     flex-direction: row;
