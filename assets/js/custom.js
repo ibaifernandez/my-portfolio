@@ -891,7 +891,7 @@ Assigned to: ThemeForest
 				$(".ex_btn").not(this).text("Read More");
 				$(this).siblings('.more_content').slideToggle();
 			  if ($(this).text() == "Expand") {
-				$(this).text("Contract")
+				$(this).text("Collapse")
 			  } else if ($(this).text() == "Expander") {
 				$(this).text("Contraer")
 			  }
