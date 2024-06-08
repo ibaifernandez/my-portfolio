@@ -891,9 +891,9 @@ Assigned to: ThemeForest
 				$(".ex_btn").not(this).text("Read More");
 				$(this).siblings('.more_content').slideToggle();
 			  if ($(this).text() == "Read More") {
-				$(this).text("- - -")
+				$(this).text("Read Less")
 			  } else {
-				$(this).text("Read More")
+				$(this).text("Contraer")
 			  }
 			});
 			 $('.ex_rightside').on('click', function(e) {
