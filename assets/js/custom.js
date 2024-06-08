@@ -892,8 +892,10 @@ Assigned to: ThemeForest
 				$(this).siblings('.more_content').slideToggle();
 			  if ($(this).text() == "Expand") {
 				$(this).text("Collapse")
-			  } else if ($(this).text() == "Expander") {
+			  } else if ($(this).text() == "Expandir") {
 				$(this).text("Contraer")
+			  } else if ($(this).text() == "Contraer") {
+				$(this).text("Expandir")
 			  } else if ($(this).text() == "Collapse") {
 				$(this).text("Expand")
 			  }
