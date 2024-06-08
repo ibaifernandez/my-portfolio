@@ -126,7 +126,7 @@
     "analysis-and-optimization": "Análisis y optimización",
     "interdisciplinary-collaboration": "Colaboración interdisciplinaria",
     "segmentation-and-automation": "Segmentación y automatización",
-    "__comment": "Aquí iría más cosas de trabajo",
+    "_____comment1": "Aquí iría más cosas de trabajo",
     "native-speaker": "Hablante nativo de epsañol",
     "english-ef-set-certificate": "Certificado EF SET de Inglés",
     "university-of-cambridge": "Uniersidad de Cambridge",
@@ -137,5 +137,6 @@
     "chinese-hsk-1": "Chino Mandarín HSK 1",
     "spanish-language": "Español",
     "english-language": "Inglés",
-    "chinese-language": "Chino Mandarín"
+    "chinese-language": "Chino Mandarín",
+    "_____comment2": "Aquí irían todas las traducciones de «Mis Servicios»"
 }
