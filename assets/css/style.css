@@ -1137,6 +1137,10 @@ transform: scale(1)!important;
     margin: 0 0;
     padding-right:50px;
 }
+.right_section ul {
+    margin-bottom:5px;
+}
+
 .right_section ul li span.feature-description {
     font-weight: 300;
     margin-bottom:5px;
