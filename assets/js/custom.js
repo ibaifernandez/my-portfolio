@@ -890,14 +890,10 @@ Assigned to: ThemeForest
 				$(".more_content").not($(this).siblings(".more_content")).slideUp();
 				$(".ex_btn").not(this).text("Read More");
 				$(this).siblings('.more_content').slideToggle();
-			  if ($(this).text() == "Read More") {
-				$(this).text("Collapse")
-			  } else if ($(this).text() == "Leer más") {
-				$(this).text("Contraer")
-			  } else if ($(this).text() == "Contraer") {
-				$(this).text("Leer más")
-			  } else if ($(this).text() == "Collapse") {
-				$(this).text("Read More")
+			  if ($(this).text() == "⬇️") {
+				$(this).text("⬆️")
+			  } else {
+				$(this).text("⬇️")
 			  }
 			});
 			 $('.ex_rightside').on('click', function(e) {
