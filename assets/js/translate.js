@@ -26,15 +26,15 @@ function translateElements(translations) {
     });
 }
 
-// Función para cambiar el ícono del botón de acuerdo al idioma actual
-function toggleLanguageButton() {
+// Función para actualizar el ícono del botón de acuerdo al idioma actual
+function updateLanguageButton() {
     var buttonIcon = document.getElementById('translate-button-icon');
     var iconPath = currentLanguage === 'en' ? 'assets/images/spain.svg' : 'assets/images/english.svg';
     buttonIcon.setAttribute('src', iconPath);
 }
 
-// Función para cambiar entre idiomas y traducir los elementos
-function translate() {
+// Función para cambiar entre idiomas y traducir los elementos usando un switch
+function toggleLanguage() {
     switch (currentLanguage) {
         case 'en':
             currentLanguage = 'es';
@@ -45,25 +45,25 @@ function translate() {
         default:
             currentLanguage = 'en';
     }
-
     loadTranslations(currentLanguage, function(error, translations) {
         if (error) {
             console.error(error);
             return;
         }
         translateElements(translations);
-        toggleLanguageButton();
+        updateLanguageButton();
     });
 }
 
-document.getElementById('translate-button-icon').addEventListener('click', toggleLanguageButton);
+// Asignar evento al botón de clic
+document.getElementById('translate-button-icon').addEventListener('click', toggleLanguage);
 
-var currentLanguage = 'en';
+var currentLanguage = 'en'; // Idioma inicial
 loadTranslations(currentLanguage, function(error, translations) {
     if (error) {
         console.error(error);
         return;
     }
     translateElements(translations);
-    toggleLanguageButton();
+    updateLanguageButton();
 });
