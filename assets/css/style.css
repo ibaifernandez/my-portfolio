@@ -1135,7 +1135,7 @@ transform: scale(1)!important;
 .right_section ul {
     list-style: none;
     margin: 0 0;
-    padding-right:20px;
+    padding-right:50px;
 }
 .right_section ul li span.feature-description {
     font-weight: 300;
