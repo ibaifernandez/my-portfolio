@@ -129,7 +129,11 @@
     "__comment": "Aquí iría más cosas de trabajo",
     "spanish-native-speaker": "Spanish Native Speaker",
     "english-ef-set-certificate": "English EF SET Certificate  85/100 C2 Proficient 18 Jul 2022",
-    "university-of-cambridge-certificate": "University of Cambridge Certificate in Advanced English Grade B · 199/210 · C1 October 2016",
+    "university-of-cambridge": "University of Cambridge",
+    "certificate-in-advanced-english": "Certificate in Advanced English",
+    "grade-b": "Grade B",
+    "october-2016": "October 2016",
+    "85-100-c2-proficient": "85/100 C2 Proficient",
     "chinese-hsk-1": "Chinese HSK 1",
     "spanish-language": "Spanish",
     "english-language": "English"
