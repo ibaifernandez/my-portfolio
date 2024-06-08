@@ -695,7 +695,11 @@ Assigned to: ThemeForest
                         {
                             latLng: [53.3498, -6.2603],
                             name: 'Dublín'
-                        },                                                
+                        },
+                        {
+                            latLng: [6.2442, -75.5812],
+                            name: 'Medellín'
+                        }                                                                        
 					]
 				  });
 				});
