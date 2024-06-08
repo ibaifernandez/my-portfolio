@@ -891,7 +891,7 @@ Assigned to: ThemeForest
 				$(".ex_btn").not(this).text("Read More");
 				$(this).siblings('.more_content').slideToggle();
 			  if ($(this).text() == "Read More") {
-				$(this).text("Read Less")
+				$(this).text("- - -")
 			  } else {
 				$(this).text("Read More")
 			  }
