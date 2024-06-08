@@ -137,5 +137,8 @@
     "chinese-hsk-1": "Chinese HSK 1",
     "spanish-language": "Spanish",
     "english-language": "English",
-    "chinese-language": "Chinese"
+    "chinese-language": "Chinese",
+    "all": "all",
+    "writing": "writing",
+    "photo": "photo"
 }
