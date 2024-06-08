@@ -1137,7 +1137,7 @@ transform: scale(1)!important;
     margin: 0 0;
     padding-right:50px;
 }
-.right_section ul {
+.right_section ul li {
     margin-bottom:5px;
 }
 
