@@ -3445,7 +3445,7 @@ h3.core-features:nth-of-type(3)::before {
         cursor: pointer;
         float: right;
         position: fixed;
-        right: 20px;
+        right: 40px;
         top: 20px;
         z-index: 110;
     }
