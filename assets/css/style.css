@@ -3366,7 +3366,7 @@ h3.core-features:nth-of-type(3)::before {
 
 @media (max-width:767px) {
     .port_bannerbg_wrapper {
-        margin-top:100px
+        margin-top:50px;
     }
     .banner_img_wrapper {
         width: 100%;
@@ -3447,7 +3447,7 @@ h3.core-features:nth-of-type(3)::before {
         float: right;
         position: fixed;
         right: 20px;
-        top: 20px;
+        top: 45px;
         z-index: 110;
     }
     .port_togglebox span {
