@@ -3122,7 +3122,7 @@ h3.core-features:nth-of-type(3)::before {
     top: 60%;
 }
 .bottom_top.active {
-    bottom:-15px;
+    bottom:-10px;
     -o-transform: translateY(-98%);
     -ms-transform: translateY(-98%);
     -moz-transform: translateY(-98%);
