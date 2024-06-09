@@ -3064,7 +3064,7 @@ h3.core-features:nth-of-type(3)::before {
 .bottom_top {
     position: fixed;
     cursor: pointer;
-    top: 0;
+    /* top: 0; */
     right: 15px;
     color: #ffffff;
     background-color: #ff517e;
@@ -3122,7 +3122,7 @@ h3.core-features:nth-of-type(3)::before {
     top: 60%;
 }
 .bottom_top.active {
-    top: 98%;
+    bottom:-15px;
     -o-transform: translateY(-98%);
     -ms-transform: translateY(-98%);
     -moz-transform: translateY(-98%);
