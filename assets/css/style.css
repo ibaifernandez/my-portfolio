@@ -3449,6 +3449,8 @@ h3.core-features:nth-of-type(3)::before {
         right: 20px;
         top: 30px;
         z-index: 110;
+        outline: 5px solid white;
+        border-radius:2px;
     }
     .port_togglebox span {
         display: block;
