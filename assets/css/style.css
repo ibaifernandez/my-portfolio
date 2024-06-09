@@ -3081,7 +3081,7 @@ h3.core-features:nth-of-type(3)::before {
     -o-transition: all 0.9s ease-in-out;
     transition: all 0.9s ease-in-out;
     border-radius: 3px;
-    outline: 5px solid white;
+    outline: 10px solid white;
 }
 .bottom_top::before {
     content: '';
