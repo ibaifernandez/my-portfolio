@@ -847,7 +847,7 @@ ul {
 .bannner_leftpart .banner_name {
     text-transform: capitalize;
     color: #222;
-    font-size: 92px;
+    font-size: 5vw;
     margin-left: -9px;
     font-weight: 700;
     background:  rgb(255, 81, 126);
@@ -974,6 +974,7 @@ transform: scale(1)!important;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    max-width: 45vw;
 }
 
 .brc_hirebtn .portfolio_btn.btn_orange {
@@ -3166,59 +3167,80 @@ h3.core-features:nth-of-type(3)::before {
 /*================== 20 start media query css ==================  */
 
 @media (max-width:1199px) {
-.selfintro_section .about_leftsection {
-    width: auto;
-    margin:0 40px 0 auto;
-    max-width: 500px;
-}
-.selfintro_section .right_section {
-    width: auto;
-    margin: 75px auto 0 auto;
-    max-width: 600px;
-}
-.personal_details ul.info-list li {
-    margin-bottom: 17px;
-}
-.education_mright .education_rinfo {
-    padding: 20px 20px 20px 20px;
-}
-.port_testimonial_setions .port_test_data {
-    width: 842px;
-}
-.port_testimonial_setions .testimonial_top_box .testimonial_img {
-    height: auto;
-}
-.banner_rcontent svg.move_bg{
-    width: 100%;
-}
-.port_banner_wrapper .banner_content {
-    padding-top: 125px;
-    padding-bottom: 50px;
-}
-.banner_img {
-    position: inherit;
-}
-.progressbar {
-    margin-bottom: 50px;
-}
+    .banner_img_wrapper {
+        position:absolute;
+    }
 
-	
+    .selfintro_section .about_leftsection {
+        width: auto;
+        margin:0 auto;
+        max-width: 500px;
+    }
+    .selfintro_section .right_section {
+        width: auto;
+        margin: 75px auto 0 auto;
+        max-width: 600px;
+    }
+    .bannner_leftpart h2.stranger:after {
+        width:535px;
+    }
+    .personal_details ul.info-list li {
+        margin-bottom: 17px;
+    }
+    .anout_section_btn {
+        display: flex;
+        justify-content: space-around;
+    }
+    .education_mright .education_rinfo {
+        padding: 20px 20px 20px 20px;
+    }
+    .port_testimonial_setions .port_test_data {
+        width: 842px;
+    }
+    .port_testimonial_setions .testimonial_top_box .testimonial_img {
+        height: auto;
+    }
+    .banner_rcontent svg.move_bg{
+        width: 100%;
+        vertical-align: top;
+        max-height: 400px;
+    }
+    .port_banner_wrapper {
+        max-height: 600px;
+    }
+
+    .port_banner_wrapper .banner_content {
+        padding-top: 125px;
+        padding-bottom: 50px;
+    }
+    .banner_img {
+        position: inherit;
+    }
+    .progressbar {
+        margin-bottom: 50px;
+    }
+    .ex_leftside .currently {
+        font-size:18px;
+    }
 }
 @media (min-width:992px) and (max-width:1199px) {
-	.right_section h2.about_tophead {
-    font-size: 30px;	
-	}
-.anout_section_btn .portfolio_btn.btn_yellow {
-    margin-right: 15px;
+    .right_section h2.about_tophead {
+        font-size: 30px;	
+    }
+    .anout_section_btn .portfolio_btn.btn_yellow {
+        margin-right: 15px;
+    }
+    .portfolio_btn {
+        min-width: 190px;
+    }
 }
-.portfolio_btn {
-    min-width: 190px;
-}
-}
+
 @media (max-width:991px) {
     .banner_img_wrapper {
-        width:60%;
+        width:45%;
         margin-bottom:25px;
+        position:relative;
+        min-height: 400px;
     }
     .banner_img {
         right: 0;
@@ -3231,6 +3253,9 @@ h3.core-features:nth-of-type(3)::before {
         font-size:18px;
         margin-left:-5px;
     } 
+    .bannner_leftpart h2.stranger-white {
+        font-size: 18px;
+    }
     .bannner_leftpart h2.stranger:after {
         width: 325px;
         margin: 0 0 -5px -2px;
@@ -3294,6 +3319,8 @@ h3.core-features:nth-of-type(3)::before {
     }
     .banner_rcontent svg.move_bg {
         height: auto;
+        max-width: 30vw;
+        margin-left: 115px;
     }
     .port_banner_wrapper {
         margin-left: 0;
@@ -3327,9 +3354,11 @@ h3.core-features:nth-of-type(3)::before {
 		display:none;
 	}
 }
+
 .col-lg-6.col-md-4.col-sm-12.col-12.newyork-desktop-screennone {
     display: none;
 }
+
 .col-lg-6.col-md-4.col-sm-12.col-12.align-self-center.DesktopNone {
     display: none;
 }
@@ -3347,6 +3376,9 @@ h3.core-features:nth-of-type(3)::before {
     .banner_img {
         width: 50%;
         margin: 50px 0 25px 0;
+    }
+    .bannner_leftpart h2.stranger-white { 
+        font-size:24px;
     }
     .port_about_setions {
         padding-top:0;
@@ -3454,6 +3486,7 @@ h3.core-features:nth-of-type(3)::before {
         left: -120px;
     }
     /* End sidebar section */
+
     .port_sec_warapper {
         margin-left: 0;
     }
@@ -3519,7 +3552,6 @@ h3.core-features:nth-of-type(3)::before {
     .port_testimonial_setions .port_test_data {
         width: 100%;
     }
-
     .port_testimonial_setions .testimonial_details_box {
         width: auto;
         margin-top: 50px;
@@ -3599,7 +3631,6 @@ h3.core-features:nth-of-type(3)::before {
     .port_testimonial_setions:after, .port_testimonial_setions:before {
         display:none;
     }
-
     }
 @media (max-width:575px) {
     .portfolio_btn {
@@ -3937,3 +3968,8 @@ h3.core-features:nth-of-type(3)::before {
     cursor: pointer;
 }
 
+@media (max-width:767px) {
+    #translate-button-container {
+        left:20px;
+    }
+}
