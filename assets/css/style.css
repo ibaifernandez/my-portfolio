@@ -3690,11 +3690,6 @@ h3.core-features:nth-of-type(3)::before {
         right: auto;
         top: auto;
     }
-    .leftside-fattache {
-        width: 98.5%;
-        margin: 0 auto;
-        margin-right: -4px;
-    }
     .experience_section .col-md-12:nth-child(2) .ex_leftside:after {
         border-left-color: transparent;
         border-top-color: #ffc454;
