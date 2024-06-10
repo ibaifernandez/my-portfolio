@@ -3287,9 +3287,9 @@ h3.core-features:nth-of-type(3)::before {
         display:flex;
         margin-bottom:10px;
     }
-    .ex_rightside h4 span {
-        /* margin:0 0 0 8px; */
-    }
+    /* .ex_rightside h4 span {
+        margin:0 0 0 8px;
+    } */
     .core-features:after, .core-features:before {
         width:25%;
     }
@@ -3707,6 +3707,10 @@ h3.core-features:nth-of-type(3)::before {
         border-right: 11px solid transparent;
         border-top: 11px solid transparent;
         border-bottom: 11px solid #f6483a;
+    }
+    .port_experience_setions .ex_leftside .right_side {
+        display: flex;
+        justify-content: space-around;
     }
     .experience_section .col-md-12:nth-child(3) .ex_leftside:after {
         border-right-color: transparent;
