@@ -3690,6 +3690,11 @@ h3.core-features:nth-of-type(3)::before {
         right: auto;
         top: auto;
     }
+    .leftside-fattache {
+        width: 98.5%;
+        margin: 0 auto;
+        margin-right: -4px;
+    }
     .experience_section .col-md-12:nth-child(2) .ex_leftside:after {
         border-left-color: transparent;
         border-top-color: #ffc454;
@@ -3711,6 +3716,7 @@ h3.core-features:nth-of-type(3)::before {
     .port_experience_setions .ex_leftside .right_side {
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
     .experience_section .col-md-12:nth-child(3) .ex_leftside:after {
         border-right-color: transparent;
