@@ -1934,7 +1934,7 @@ ul.more_content {
 
 .ex_rightside span {
     display: block;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .ex_rightside span.secondary_span {
