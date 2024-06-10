@@ -3288,7 +3288,7 @@ h3.core-features:nth-of-type(3)::before {
         margin-bottom:10px;
     }
     .ex_rightside h4 span {
-        margin:0 0 0 8px;
+        /* margin:0 0 0 8px; */
     }
     .core-features:after, .core-features:before {
         width:25%;
