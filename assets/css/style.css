@@ -3678,7 +3678,7 @@ h3.core-features:nth-of-type(3)::before {
     }
     .port_experience_setions .ex_leftside {
         width: 100%;
-        margin-bottom:15px;
+        /* margin-bottom:15px; */
     }
     .ex_leftsidebox .ex_leftside:after {
         border-left: 11px solid transparent;
