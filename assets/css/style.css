@@ -3708,6 +3708,9 @@ h3.core-features:nth-of-type(3)::before {
         border-top: 11px solid transparent;
         border-bottom: 11px solid #f6483a;
     }
+    .ex_rightsidebox .padding-0 {
+        padding:0;
+    }
     .port_experience_setions .ex_leftside .right_side {
         display: flex;
         justify-content: space-around;
