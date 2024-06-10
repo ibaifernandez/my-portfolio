@@ -3722,7 +3722,7 @@ h3.core-features:nth-of-type(3)::before {
     }
     .experience_section .col-md-12:nth-child(3) .ex_leftside {
         float: right;
-        margin-top: 15px;
+        /* margin-top: 15px; */
         margin-bottom: 0px;
     }
     .experience_section .col-md-12:nth-child(4) .ex_leftside:after {
