@@ -699,7 +699,15 @@ Assigned to: ThemeForest
                         {
                             latLng: [6.2442, -75.5812],
                             name: 'Medellín'
-                        }                                                                        
+                        },
+                        {
+                            latLng: [11.2408, -74.1990],
+                            name: 'Santa Marta'
+                        },
+                        {
+                            latLng: [3.2174, -75.1744],
+                            name: "Villavieja"
+                        }
 					]
 				  });
 				});
