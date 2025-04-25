@@ -1782,7 +1782,7 @@ h3.education_place {
 
 .port_experience_setions .ex_leftside,
 .port_language_section .ex_leftside {
-    background: #ff517e;
+    /* background: #ff517e; */
     border-radius: 3px;
     /* padding: 23px 20px; */
     position: relative;
@@ -1955,12 +1955,12 @@ ul.more_content {
     padding-left: 0;
     padding-right: 15px;
 }
-.experience_section .col-md-12:nth-child(2) .ex_leftside {
+/* .experience_section .col-md-12:nth-child(2) .ex_leftside {
     background: #ffc454;
-}
-.experience_section .col-md-12:nth-child(3) .ex_leftside {
+} */
+/* .experience_section .col-md-12:nth-child(3) .ex_leftside {
     background: #ff754a;
-}
+} */
 .experience_section .col-md-12:nth-child(4) .ex_leftside {
     background: #00c8da;
 }
