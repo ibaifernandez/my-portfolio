@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home4/aglayabi/public_html/portfolio-ibaifernandez/
+    - /bin/cp -R . $DEPLOYPATH
+    - rm -f $DEPLOYPATH/.cpanel.yml
