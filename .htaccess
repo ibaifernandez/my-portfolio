@@ -1,0 +1,6 @@
+<FilesMatch "^(\.git|\.env|\.cpanel\.yml|README\.md)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+RedirectMatch 403 /\.git
